@@ -1,8 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <!-- <a href="https://github.com/braincyclone/smoke-site"> -->
+  <a href="https://github.com/braincyclone/smoke-site">
     <img alt="Gatsby" src="https://www.symbols.com/images/symbol/3292_world-of-warcraft-horde-logo.png" width="60" />
-  <!-- </a> -->
+  </a>
 </p>
 <h1 align="center">
   Smoke Site Test
