@@ -18,7 +18,7 @@ If you have any questions on how to run this locally please contact me or refer 
 
     ```shell
     # create a new Gatsby site using smoke-site
-    gatsby new my-hello-world-starter https://github.com/braincyclone/smoke-site
+    gatsby new smoke-site https://github.com/braincyclone/smoke-site
     ```
 
 1.  **Start developing.**
