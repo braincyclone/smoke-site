@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Smoke Guild`,
+    description: `Competitive Raiding on Kirtonos US`,
+    author: `@Feels`
+  },
+
+  plugins: [
+
+  ],
+
 }

@@ -1,8 +1,13 @@
 html {
   background-color: black;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll
+}
+
+/* mandatory scroll snapping not working ? need to fix, proximity for now. */
+
+section { 
+  scroll-snap-align: start;
 }
 
 .noDecoration, a:link, a:visited {
@@ -17,7 +22,18 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  scroll-snap-align: start;
+}
+
+.apply-container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.streams-container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
 }
 
 .logo {
@@ -43,20 +59,9 @@ html {
   justify-content: center;
 }
 
-.apply-container {
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-}
-
-.apply-section {
-  scroll-snap-align: end;
-}
-
-
 @media only screen and (max-width: 860px) {
   .main-container {
-    height: 75vh;
+    height: 100vh;
   }
   .logo {
     padding: 2.5rem;
