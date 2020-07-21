@@ -5,8 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* mandatory scroll snapping not working ? need to fix, proximity for now. */
-
 section { 
   scroll-snap-align: start;
 }
