@@ -13,7 +13,28 @@ module.exports = {
   },
 
   plugins: [
-
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Smoke`,
+        short_name: `Smoke`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: `src/assets/horde-symbol.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 
 }
